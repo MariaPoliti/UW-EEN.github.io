@@ -1,10 +1,22 @@
-# The Drummond Lab main website
+# The UW Energy Electrochem Nexus main website
 
-Our website, http://drummondlab.org, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our website, http://UW-EEN.github.io, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's site](https://github.com/drummondlab/drummondlab.github.io) which in turn was pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
+Our site will essentially copy their format and incorporate minor changes as we start to learn some website development. Go [here] (http://drummondlab.org/about.html) to find more details about the template design.
 
 # Editing the site
 
-Here's a step-by-step guide to making modifications to the site, focused initially on adding typical content. You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
+Here's a step-by-step guide to making modifications to the site, focused initially on adding typical content. You'll need a working Unix-like environment and working knowledge of Git, [Markdown](https://daringfireball.net/projects/markdown/syntax), HTML, and Unix commands. 
+You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies installed. For now, if you need help getting set up, ask someone who's already up and running.
+
+## Installing requirements
+
+You will need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies. Start by finding the [Ruby installer] (https://www.ruby-lang.org/en/downloads/) for your OS. 
+If you're using Windows [follow these steps] (https://jekyllrb.com/docs/installation/windows/) for installing jekyll properly. Double check that you have `jekyll` and `bundler` installed correctly by running:
+
+    jekyll -v
+    bundler -ve
+
+
 
 ## Clone the repository
 
