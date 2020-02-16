@@ -13,8 +13,8 @@ repository: Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Energy Electrochem Nesus
-tagline: Molecular basis of cellular sensing and responses
+title : Energy Electrochem Nexus
+tagline: High Temperature Electrocatalysis for Energy Storage and Conversion
 institution:
   url: http://www.washington.edu
   name: The University of Washington
@@ -22,10 +22,10 @@ department:
   url: http://cheme.washington.edu
   name: Chemical Engineering
 author :
-  name : D. Allan Drummond
-  email : dadrummond@uchicago.edu
-  github : dad
-  twitter : dadrummond
+  name : Brian Gerwe
+  email : Brian.S.Gerwe@gmail.com
+  github : BSGerwe
+  twitter : BrianSGerwe
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
