@@ -20,15 +20,15 @@ If you're using Windows [follow these steps] (https://jekyllrb.com/docs/installa
 
 ## Clone the repository
 
-If you're a member of the [Drummond Lab team](https://github.com/orgs/drummondlab/teams/drummond-lab-team), you have access to the website repository.
+If you're a member of the [Energy Electrochem Nexus team](https://github.com/orgs/Energy-Electrochem-Nexus/people), you have access to the website repository.
 
 To clone the repository, making a local copy on your machine:
 
-	git clone git@github.com:drummondlab/drummondlab.github.io
+	git clone git@github.com:Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io
 
 Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
 
-	cd drummondlab.github.io
+	cd Energy-Electrochem-Nexus.github.io
 	git checkout staging
 
 ## Overview of the structure
@@ -92,7 +92,7 @@ and push to GitHub:
 
 	git push
 
-Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://drummondlab.org looks the way you intend.
+Changes won't be immediate, so wait a minute or two while GitHub's servers regenerate the site and publish it. Check to make sure the public site http://Energy-Electrochem-Nexus.github.io looks the way you intend.
 
 Finally, check out `staging` again so that you don't accidentally start working on the `master` branch the next time you sit down:
 
@@ -104,7 +104,7 @@ Fonts, colors, spacing, and similar stylings are separate from the template page
 
 ### To-dos
 
-See Issues on [the site](https://github.com/drummondlab/drummondlab.github.io).
+See Issues on [the site](https://github.com/Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io).
 
 
 ## License
