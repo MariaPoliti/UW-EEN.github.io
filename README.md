@@ -1,7 +1,7 @@
 # The UW Energy Electrochem Nexus main website
 
 Our website, http://UW-EEN.github.io, is a [GitHub Pages](https://pages.github.com/) site built with [Jekyll](https://jekyllrb.com/) and [Bootstrap](http://getboostrap.com), originally pulled from [D. Allan Drummond's site](https://github.com/drummondlab/drummondlab.github.io) which in turn was pulled from [Trevor Bedford's site](http://bedford.io) and heavily modified.
-Our site will essentially copy their format and incorporate minor changes as we start to learn some website development. Go [here] (http://drummondlab.org/about.html) to find more details about the template design.
+Our site will essentially copy their format and incorporate minor changes as we start to learn some website development. Go [here](http://drummondlab.org/about.html) to find more details about the template design.
 
 # Editing the site
 
@@ -14,8 +14,9 @@ You will need a working Ruby installation, with gems for Jekyll, GitHub Pages, a
 If you're using Windows [follow these steps] (https://jekyllrb.com/docs/installation/windows/) for installing jekyll properly. Double check that you have `jekyll` and `bundler` installed correctly by running:
 
     jekyll -v
-    bundler -ve
+    bundler -v
 
+After that's done, run `
 
 
 ## Clone the repository
@@ -24,7 +25,7 @@ If you're a member of the [Energy Electrochem Nexus team](https://github.com/org
 
 To clone the repository, making a local copy on your machine:
 
-	git clone git@github.com:Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io
+	git clone https://github.com/Energy-Electrochem-Nexus/Energy-Electrochem-Nexus.github.io
 
 Enter your local repository and check out the `staging` branch, where you'll make changes before promoting them to the `master` branch and publishing them:
 
@@ -43,28 +44,32 @@ For most common actions---adding a lab member, paper, protocol, or news item---y
 
 For example, suppose you want to add a news item, which will appear on the front page, announcing that you have created a yeast strain capable of secreting high-quality chardonnay. Go into the `news/_posts` folder. Copy one of the existing items into a new file named with today's date (it matters!) and a brief title:
 
-	cp 2017-12-15-allan-tenure.md 2020-01-31-wine-yeast.md
+	cp 2017-10-7-bg-jmw-ecs-232nd.md 2019-12-10-stu-flipped-class.md
 
 The date is used by the generator; it's inelegant and perhaps there's a way to do it differently, but that's how it is for now. Now edit the new file to make the content what you want. Just open it in your favorite editor and type away. By the time you're done, hopefully you have something like this:
 
 	---
-	layout: news
-	title: "New yeast strain makes chardonnay"
-	author: "X. Obsequious Trenchant"
-	author_handle: "xot"
-	image: /assets/images/news/default-news.png
-	category: news
-	tags: [breakthrough]
-	---
-	Today we are thrilled to announce a new strain of yeast that secretes beautifully oaked chardonnay. See more details in our [preprint](http://biorxiv.org/content/10.1101/0000000)!
+    layout: news
+    title: "Turning a New Leaf on Traditional Lectures"
+    author: "Brian Gerwe"
+    author_handle: "Brian"
+    image: /assets/images/news/default-news.png
+    category: news
+    published: true
+    tags: [teaching]
+    ---
+    [Stu][1] was featured in a ChemE department [article] about teaching the introductory thermodynamics class as a "flipped classroom".
+
+    [1]: team/stu-adler
+    [article]: https://www.cheme.washington.edu/news/article/2020-02-13/flipped-classroom
 
 Now add it to the repository:
 
-	git add 2020-01-31-wine-yeast.md
+	git add 2019-12-10-stu-flipped-class.md
 
 And, when you're happy with it, commit and push:
 
-	git commit -m "announcing new yeast strain"
+	git commit -m "Stu featured article"
 	git push
 
 This new announcement won't yet be public. The next section shows you how to do that.
