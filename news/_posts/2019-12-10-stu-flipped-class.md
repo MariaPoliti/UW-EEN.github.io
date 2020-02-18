@@ -10,5 +10,5 @@ tags: [teaching]
 ---
 [Stu][1] was featured in a ChemE department [article] about teaching the introductory thermodynamics class as a "flipped classroom".
 
-[1]: team/stu-adler
+[1]: /team/stu-adler
 [article]: https://www.cheme.washington.edu/news/article/2020-02-13/flipped-classroom
