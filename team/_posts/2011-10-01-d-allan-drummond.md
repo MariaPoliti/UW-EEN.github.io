@@ -11,6 +11,7 @@ scholar: -YZ5mIIAAAAJ
 image: /assets/images/team/d-allan-drummond.png
 cv: /assets/pdfs/drummond-cv.pdf
 alum: false
+published: false
 ---
 Allan is an Associate Professor at the [University of Chicago] in the Department of [Biochemistry & Molecular Biology], with a secondary appointment in the [Department of Human Genetics].
 
