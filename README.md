@@ -10,8 +10,10 @@ You'll need a working Ruby installation, with gems for Jekyll, GitHub Pages, and
 
 ## Installing requirements
 
-You will need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies. Start by finding the [Ruby installer] (https://www.ruby-lang.org/en/downloads/) for your OS. 
-If you're using Windows [follow these steps] (https://jekyllrb.com/docs/installation/windows/) for installing jekyll properly. Double check that you have `jekyll` and `bundler` installed correctly by ***opening a command terminal***  and running:
+You will need a working Ruby installation, with gems for Jekyll, GitHub Pages, and their dependencies. Start by finding the [Ruby installer](https://www.ruby-lang.org/en/downloads/) for your OS. 
+If you're using Windows [follow these steps](https://jekyllrb.com/docs/installation/windows/) for installing jekyll properly. Use the default options in the Ruby installer.
+
+Once Ruby has been installed, double check that you have `jekyll` and `bundler` installed correctly by ***opening a command terminal***  and running:
 
     jekyll -v
     bundler -v
@@ -21,7 +23,9 @@ This should output something like:
     jekyll 4.0.0
     Bundler version 2.1.4
 
-Then make sure the Gemfile in the root directory contains the line `gem 'github-pages', group: :jekyll_plugins` and run `bundle install`
+Then make sure the Gemfile in the root directory contains the line `gem 'github-pages', group: :jekyll_plugins` and run:
+
+    bundle install
 
 If you didn't receive any errors, you should be ready to start contributing!
 
